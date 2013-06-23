@@ -68,6 +68,7 @@ function Monitor () {
                 totalmem: os.totalmem(),
                 loadavg: os.loadavg(),
                 freemem: os.freemem(),
+                numCpus: os.cpus().length,
                 loadavgHistory: loadavgHistory,
                 freememHistory: freememHistory,
                 networkHistory: networkHistory,
